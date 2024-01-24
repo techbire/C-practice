@@ -90,3 +90,17 @@
 //      else{printf("c is grearter");}
 
 // }}
+
+
+
+//print 1 to 20
+// #include<stdio.h>
+// int main(){
+// int i;
+// for(i=1;i<=10;i++){
+//      printf("%d",i);
+//      printf(".hello\n");
+
+// }
+
+// }
