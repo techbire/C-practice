@@ -137,9 +137,11 @@ int n;
 printf("enter the nth term for odd number");
 scanf("%d",&n);
 int i;
-for(i=3;i<=2*n-1;i=i+1){
-     printf("%d \n",i);
-}
+int a=3;
+for(int i=1;i<=n;i++)
+{printf("%d  ",a);
+a=a*4;}
 
 }
+
 
