@@ -116,3 +116,30 @@
 
 
 // }
+
+//print the odd number till nth term
+// #include<stdio.h>
+// int main(){
+// int n;
+// printf("enter the nth term for odd number");
+// scanf("%d",&n);
+// int i;
+// for(i=1;i<=2*n-1;i=i+2){
+//      printf("%d \n",i);
+// }
+
+// }
+
+//print the gp starting with 3,12,48....till nth term
+#include<stdio.h>
+int main(){
+int n;
+printf("enter the nth term for odd number");
+scanf("%d",&n);
+int i;
+for(i=3;i<=2*n-1;i=i+1){
+     printf("%d \n",i);
+}
+
+}
+
