@@ -84,3 +84,17 @@
 // else if (a==0) printf("the given number is prime");
 // else printf("the given number is composite");
 // return 0;}
+
+
+
+//writing odd no. till 100 with continue
+#include<stdio.h>
+int main(){
+    for (int i=1;i<=100;i++){
+        if(i%2==0)
+        {
+            continue;
+        }
+        printf("%d ",i);
+    
+}}
