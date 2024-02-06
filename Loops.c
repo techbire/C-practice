@@ -134,25 +134,66 @@
 
 
 //sumation of a number but only even number
+// #include<stdio.h>
+
+// int main() {
+//     int n;
+//     printf("enter a number: ");
+//     scanf("%d", &n);
+
+//     int sum = 0;
+//     int lastdigit = 0;
+
+//     while (n != 0) {
+//         lastdigit = n % 10;
+//         if (lastdigit % 2 == 0) {
+//             sum = sum + lastdigit;
+//         }
+//         n = n / 10;
+//     }
+
+//     printf("Sum of even digits: %d\n", sum);
+
+//     return 0;
+// }
+
+
+
+//reversing a number
+#include<stdio.h>
+int main(){
+    int n;
+    printf("enter a number");
+    scanf("%d",&n);
+    int lastdigit=0;
+    int sum=0;
+    while(n>0){
+lastdigit=n%10;
+sum=sum+lastdigit;
+n=n/10;
+sum=sum*10;
+
+    }
+}
+
+
 #include<stdio.h>
 
 int main() {
     int n;
-    printf("enter a number: ");
+    printf("Enter a number: ");
     scanf("%d", &n);
 
-    int sum = 0;
     int lastdigit = 0;
+    int reversedNumber = 0;
 
-    while (n != 0) {
+    while (n > 0) {
         lastdigit = n % 10;
-        if (lastdigit % 2 == 0) {
-            sum = sum + lastdigit;
-        }
+        reversedNumber = reversedNumber * 10 + lastdigit;
         n = n / 10;
     }
 
-    printf("Sum of even digits: %d\n", sum);
+    printf("Reversed number: %d\n", reversedNumber);
 
     return 0;
 }
