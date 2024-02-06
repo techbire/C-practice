@@ -116,4 +116,43 @@
 // }
 
 
-//sf
+//sumation of a number
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("enter a number\n");
+//     scanf("%d",&n);
+//     int sum=0;
+//     int lastdigit=0;
+//     while(n!=0){
+//         lastdigit=n%10;
+//         sum=sum+lastdigit;
+//         n=n/10;
+//     }
+//     printf("the sumation of number is: %d",sum);
+// }
+
+
+//sumation of a number but only even number
+#include<stdio.h>
+
+int main() {
+    int n;
+    printf("enter a number: ");
+    scanf("%d", &n);
+
+    int sum = 0;
+    int lastdigit = 0;
+
+    while (n != 0) {
+        lastdigit = n % 10;
+        if (lastdigit % 2 == 0) {
+            sum = sum + lastdigit;
+        }
+        n = n / 10;
+    }
+
+    printf("Sum of even digits: %d\n", sum);
+
+    return 0;
+}
