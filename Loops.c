@@ -88,13 +88,29 @@
 
 
 //writing odd no. till 100 with continue
-#include<stdio.h>
-int main(){
-    for (int i=1;i<=100;i++){
-        if(i%2==0)
-        {
-            continue;
-        }
-        printf("%d ",i);
+// #include<stdio.h>
+// int main(){
+//     for (int i=1;i<=100;i++){
+//         if(i%2==0)
+//         {
+//             continue;
+//         }
+//         printf("%d ",i);
     
-}}
+// }}
+
+//count the number
+// #include<stdio.h>
+// int main(){
+//     int n;
+// printf("enter a number\n");
+// scanf("%d",&n);
+// int c=0;
+// while(n!=0){
+//     n=n/10;
+//     c++;
+// }
+
+// printf("%d",c);
+
+// }
