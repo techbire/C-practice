@@ -166,34 +166,11 @@ int main(){
     printf("enter a number");
     scanf("%d",&n);
     int lastdigit=0;
-    int sum=0;
+    int reversedNumber=0;
     while(n>0){
 lastdigit=n%10;
-sum=sum+lastdigit;
-n=n/10;
-sum=sum*10;
-
-    }
-}
-
-
-#include<stdio.h>
-
-int main() {
-    int n;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-
-    int lastdigit = 0;
-    int reversedNumber = 0;
-
-    while (n > 0) {
-        lastdigit = n % 10;
-        reversedNumber = reversedNumber * 10 + lastdigit;
-        n = n / 10;
-    }
-
-    printf("Reversed number: %d\n", reversedNumber);
-
-    return 0;
+reversedNumber=reversedNumber*10+lastdigit;
+n=n/10;}
+  printf("Reversed number: %d\n", reversedNumber);
+  
 }
