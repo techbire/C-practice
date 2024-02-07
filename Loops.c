@@ -160,17 +160,33 @@
 
 
 //reversing a number
-#include<stdio.h>
-int main(){
-    int n;
-    printf("enter a number");
-    scanf("%d",&n);
-    int lastdigit=0;
-    int reversedNumber=0;
-    while(n>0){
-lastdigit=n%10;
-reversedNumber=reversedNumber*10+lastdigit;
-n=n/10;}
-  printf("Reversed number: %d\n", reversedNumber);
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("enter a number");
+//     scanf("%d",&n);
+//     int lastdigit=0;
+//     int reversedNumber=0;
+//     while(n>0){
+// lastdigit=n%10;
+// reversedNumber=reversedNumber*10+lastdigit;
+// n=n/10;}
+//   printf("Reversed number: %d\n", reversedNumber);
   
-}
+// }
+
+
+
+//sum of the till given number
+// #include<stdio.h>
+// int main(){
+// int n;
+// printf("enter a number\n");
+// scanf("%d",&n);
+// int sum=0;
+// for(int i=1;i<=n;i++){
+//     sum=sum+i;
+// }
+// printf("the sum of the till given number: %d",sum);
+
+// }
