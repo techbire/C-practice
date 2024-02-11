@@ -254,3 +254,17 @@
 // printf("%d",sum);
 
 // }
+
+//raising a power of the number both via input
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+// int a,b;
+// printf("enter a  number: ");
+// scanf("%d",&a);
+// printf("enter a number to raise power in that no.: ");
+// scanf("%d",&b);
+// int result=pow(a,b);
+// printf("result:%d ",result);
+
+// }
