@@ -247,10 +247,10 @@
 // int a=1,b=1;
 // int sum;
 // for(int i=3;i<=n;i++){
-// sum=a+b;
-// a=b;
-// b=sum;
-// }
-// printf("%d",sum);
+sum=a+b;
+a=b;
+b=sum;
+}
+printf("%d",sum);
 
-// }
+}
