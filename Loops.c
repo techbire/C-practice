@@ -267,7 +267,4 @@
 // int result=pow(a,b);
 // printf("result:%d ",result);
 
-// }fdffsf
-sdfjsdgpo
-
-gjgdfhgojfgdfgdgdfger
+// }
