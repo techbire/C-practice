@@ -223,16 +223,34 @@
 
 
 //finding factorial till given number
-#include<stdio.h>
+// #include<stdio.h>
 
-int main() {
-    int n;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-    int product = 1;
-    for (int i = 1; i <= n; i++) {
-        product = product * i;
-        printf("Factorial of %d is: %d\n", i, product);
-    }
-    return 0;
-}
+// int main() {
+//     int n;
+//     printf("Enter a number: ");
+//     scanf("%d", &n);
+//     int product = 1;
+//     for (int i = 1; i <= n; i++) {
+//         product = product * i;
+//         printf("Factorial of %d is: %d\n", i, product);
+//     }
+//     return 0;
+// }
+
+
+//fibonacci number
+// #include<stdio.h>
+// int main(){
+// int n;
+// printf("enter a number\n");
+// scanf("%d",&n);
+// int a=1,b=1;
+// int sum;
+// for(int i=3;i<=n;i++){
+// sum=a+b;
+// a=b;
+// b=sum;
+// }
+// printf("%d",sum);
+
+// }
