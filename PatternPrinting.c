@@ -53,3 +53,6 @@
 // }
 
 // }
+
+
+//printing reverse star triangle
