@@ -77,20 +77,38 @@
 
 //printing reverse star triangle
 //method-2
+// #include<stdio.h>
+// int main(){
+// int n;
+// printf("enter a number: ");
+// scanf("%d",&n);
+// int a=n;
+// for(int i=1;i<=n;i++){
+//     for(int j=1;j<=a;j++){
+//         printf("*");
+
+//     }
+// a--;
+// printf("\n");
+
+// }
+
+// }
+
+
+
+
+//printing number triangle
 #include<stdio.h>
 int main(){
 int n;
 printf("enter a number: ");
 scanf("%d",&n);
-int a=n;
 for(int i=1;i<=n;i++){
-    for(int j=1;j<=a;j++){
-        printf("*");
-
-    }
-a--;
+    for(int j=1;j<=i;j++){
+    printf("%d",j);
+}
 printf("\n");
-
 }
 
 }
