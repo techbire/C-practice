@@ -276,7 +276,7 @@ int main(){
     printf("enter a number: ");
     scanf("%d",&number);
     int q=number;
-    while(q!=0)
+    while(q!=0)          //{ 371/10=37,count=1    37/10=3,count=2    3/10=0,count=3 }
     {
         q=q/10;
         count++;
@@ -285,7 +285,7 @@ int main(){
     q=number;
     while(q!=0)
     {
-        rem=q%10;
+        rem=q%10;  //{ 371%10=7,mul=1,result=1      37%10=7,mul=7*7*7=343,result=1+343=344      3%10=3,mul=3*3*3=27,result=344+27=371 }
         while(cnt!=0)
         {
             mul=mul*rem;
