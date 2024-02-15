@@ -270,35 +270,35 @@
 // }
 
 //checking armstrong number
-#include<stdio.h>
-int main(){
-    int number,count=0,rem,result=0,mul=1,cnt;   
-    printf("enter a number: ");
-    scanf("%d",&number);
-    int q=number;
-    while(q!=0)          //{ 371/10=37,count=1    37/10=3,count=2    3/10=0,count=3 }
-    {
-        q=q/10;
-        count++;
-    }
-    cnt=count;
-    q=number;
-    while(q!=0)
-    {
-        rem=q%10;  //{ 371%10=7,mul=1,result=1      37%10=7,mul=7*7*7=343,result=1+343=344      3%10=3,mul=3*3*3=27,result=344+27=371 }
-        while(cnt!=0)
-        {
-            mul=mul*rem;
-            cnt--;
-        }
-        result=result+mul;
-        cnt=count;
-        q=q/10;
-        mul=1;
-    }
-    if(result==number)
-    printf("%d is an Armstrong nummber",number);
-    else
-    printf("%d is not an Armstrong number",number);
-    return 0;
-}
+// #include<stdio.h>
+// int main(){
+//     int number,count=0,rem,result=0,mul=1,cnt;   
+//     printf("enter a number: ");
+//     scanf("%d",&number);
+//     int q=number;
+//     while(q!=0)          //{ 371/10=37,count=1    37/10=3,count=2    3/10=0,count=3 }
+//     {
+//         q=q/10;
+//         count++;
+//     }
+//     cnt=count;
+//     q=number;
+//     while(q!=0)
+//     {
+//         rem=q%10;  //{ 371%10=7,mul=1,result=1      37%10=7,mul=7*7*7=343,result=1+343=344      3%10=3,mul=3*3*3=27,result=344+27=371 }
+//         while(cnt!=0)
+//         {
+//             mul=mul*rem;
+//             cnt--;
+//         }
+//         result=result+mul;
+//         cnt=count;
+//         q=q/10;
+//         mul=1;
+//     }
+//     if(result==number)
+//     printf("%d is an Armstrong nummber",number);
+//     else
+//     printf("%d is not an Armstrong number",number);
+//     return 0;
+// }
