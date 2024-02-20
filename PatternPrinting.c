@@ -124,3 +124,30 @@
 //     }
 
 //     return 0;
+
+
+
+//alphabet square
+#include<stdio.h>
+
+int main() {
+    int n;
+    printf("Enter the number of rows for the Alphabet Triangle: ");
+    scanf("%d", &n);
+
+    if (n < 1 || n > 26) {
+        printf("Invalid input. Please enter a number between 1 and 26.\n");
+        return 1;  // Return an error code
+    }
+
+    for (int i = 1; i <= n; i++) {
+        char currentChar = 'A';  // Start with the first alphabet
+        for (int j = 1; j <= i; j++) {
+            printf("%c ", currentChar);
+            currentChar = (currentChar + 1 > 'Z') ? 'A' : currentChar + 1;  // Loop back to 'A' after 'Z'
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
