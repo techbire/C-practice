@@ -164,8 +164,7 @@ int main() {
         printf("Invalid input. Please enter a number between 1 and 26.\n");
         return 1;  // Return an error code
     }
-
-    for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
         char currentChar = 'A';  // Start with the first alphabet
         for (int j = 1; j <= i; j++) {
             printf("%c ", currentChar);
