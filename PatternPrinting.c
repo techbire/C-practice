@@ -159,8 +159,7 @@ int main() {
     int n;
     printf("Enter the number of rows for the Alphabet Triangle: ");
     scanf("%d", &n);
-
-    if (n < 1 || n > 26) {
+  if (n < 1 || n > 26) {
         printf("Invalid input. Please enter a number between 1 and 26.\n");
         return 1;  // Return an error code
     }
