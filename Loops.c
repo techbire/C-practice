@@ -306,22 +306,22 @@
 
 //number to binary 
 // Online C compiler to run C program online
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
-    int n, i = 1, binary = 0, rem;
+// int main() {
+//     int n, i = 1, binary = 0, rem;
 
-    printf("Enter a decimal number: ");
-    scanf("%d", &n);
+//     printf("Enter a decimal number: ");
+//     scanf("%d", &n);
 
-    while (n != 0) {
-        rem = n % 2;
-        binary = binary + rem * i;
-        n = n / 2;
-        i = i * 10;
-    }
+//     while (n != 0) {
+//         rem = n % 2;
+//         binary = binary + rem * i;
+//         n = n / 2;
+//         i = i * 10;
+//     }
 
-    printf("The binary representation is: %d\n", binary);
+//     printf("The binary representation is: %d\n", binary);
 
-    return 0;
-}
+//     return 0;
+// }
