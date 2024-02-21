@@ -37,7 +37,7 @@
 //     }
 // }
 
-// printing star trinagle
+// printing star triangle
 //  #include<stdio.h>
 //  int main(){
 //  int n;
@@ -124,7 +124,7 @@
 //     }
 
 //     return 0;
-
+// }
 
 
 //alphabet square
@@ -174,3 +174,4 @@
 
 //     return 0;
 // }
+
