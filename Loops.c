@@ -302,3 +302,26 @@
 //     printf("%d is not an Armstrong number",number);
 //     return 0;
 // }
+
+
+//number to binary 
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int n, i = 1, binary = 0, rem;
+
+    printf("Enter a decimal number: ");
+    scanf("%d", &n);
+
+    while (n != 0) {
+        rem = n % 2;
+        binary = binary + rem * i;
+        n = n / 2;
+        i = i * 10;
+    }
+
+    printf("The binary representation is: %d\n", binary);
+
+    return 0;
+}
