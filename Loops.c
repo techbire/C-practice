@@ -304,6 +304,16 @@
 // }
 
 
+
+
+
+
+
+
+
+///important question for logic building
+
+
 //number to binary 
 // Online C compiler to run C program online
 // #include <stdio.h>
@@ -325,3 +335,83 @@
 
 //     return 0;
 // }
+
+
+
+
+//perfect number
+// #include <stdio.h>
+
+// int main() {
+//     int a, b;
+//     scanf("%d %d", &a, &b);
+
+//     int foundPerfect = 0; // Flag to check if any perfect numbers are found
+
+//     for (int i = a; i <= b; i++) {
+//         int sum = 1; // Initialize sum to 1 as 1 is always a divisor
+
+//         // Check for divisors up to the square root of the number
+//         for (int j = 2; j * j <= i; j++) {
+//             if (i % j == 0) {
+//                 sum += j;
+//                 if (j != i / j) {
+//                     sum += i / j;
+//                 }
+//             }
+//         }
+
+//         // Check if the current number is a perfect number
+//         if (sum == i) {
+//             printf("%d ", i);
+//             foundPerfect = 1; // Set the flag as a perfect number is found
+//         }
+//     }
+
+//     // If no perfect numbers are found, print "No perfect numbers"
+//     if (!foundPerfect) {
+//         printf("No perfect numbers");
+//     }
+
+//     return 0;
+// }
+
+
+
+// #include<stdio.h>
+// int main)f
+// int a,b,n,x,y;
+// scanf ("%d %d"
+// , &a, &b);
+// for (int i;t›a;i<b){
+// x-a%i;
+// y= b%i;
+// if (x=0 & y==0){
+// printf("%d",&ti;
+// }
+// } 
+
+
+
+#include <stdio.h>
+
+int main() {
+    int number;
+    printf("Enter the number: ");
+    scanf("%d", &number);
+
+    int sum = 0;
+    for (int i = 1; i < number; i++) {
+        if (number % i == 0) {
+            sum += i;
+        }
+    }
+
+    if (sum == number) {
+        printf("%d is a perfect number\n", number);
+    } else {
+        printf("%d is not a perfect number\n", number);
+    }
+
+    return 0;
+}
