@@ -416,4 +416,36 @@
 //     return 0;
 // }
 
+//sub number even and odd place
+#include<stdio.h>
 
+int main() {
+    int number, digit, position = 1, sum_even = 0, sum_odd = 0;
+
+    printf("Enter a sequence of digits: ");
+    scanf("%d", &number);
+
+    while (number > 0) {
+        digit = number % 10;
+
+        if (position % 2 == 0) {
+            // Even position
+            sum_even += digit;
+        } else {
+            // Odd position
+            sum_odd += digit;
+        }
+
+        number /= 10;
+        position++;
+    }
+
+    int result = sum_even - sum_odd;
+    if (result < 0) {
+        result = -result; // Calculate absolute difference
+    }
+
+    printf("Output: %d\n", result);
+
+    return 0;
+}
