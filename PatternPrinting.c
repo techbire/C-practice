@@ -285,7 +285,7 @@ int main(){
     for (int i=0;i<=n;i++){
        
         for (int j=0;j<=i;j++){
-          if(i==j) a=1;
+          if((i+j)%2==0) a=1;
         else a=0;
             printf("%d",a);
        
