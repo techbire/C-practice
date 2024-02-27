@@ -175,6 +175,27 @@
 //     return 0;
 // }
 
+//method-02 without typecasting(easy)
+// #include<stdio.h>
+
+// int main() {
+//     int n;
+//     printf("Enter the number: ");
+//     scanf("%d", &n);
+
+//     for (int i = 1; i <= n; i++) {
+//         for (int j = 1; j <= i; j++) {
+//             printf("%c", 'A' + j - 1);
+//         }
+//         printf("\n");
+//     }
+
+//     return 0;
+// }
+
+
+
+
 
 //print starplus
 // #include<stdio.h>
@@ -355,4 +376,29 @@
 // }
 
 
-//printing
+
+
+//printing alphabet triangle mast
+// #include <stdio.h>
+
+// int main() {
+//     int n;
+//     printf("Enter the value of n: ");
+//     scanf("%d", &n);
+
+//     for (int i = 1; i <= n; i++) {
+//         // Print spaces
+//         for (int j = 1; j <= n - i; j++) {
+//             printf(" ");
+//         }
+
+//         // Print characters
+//         for (int k = 1; k <= i; k++) {
+//             printf("%c", 'A' + k - 1);
+//         }
+
+//         printf("\n");
+//     }
+
+//     return 0;
+// }
