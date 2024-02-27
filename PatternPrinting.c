@@ -242,19 +242,19 @@
 
 
 //floyd's triangle
-// #include<stdio.h>
-// int main(){
-// int n,a=1;
-//     scanf("%d",&n);
-//     for(int i=1;i<=n;i++){
-//         for(int j=1;j<=i;j++){
-//             printf("%d",a);
-//             a=a+1;  
-//         }
+#include<stdio.h>
+int main(){
+int n,a=1;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            printf("%d",a);
+            a=a+1;  
+        }
        
-//         printf("\n");
-//         }
-//     }
+        printf("\n");
+        }
+    }
 
 
 
@@ -278,18 +278,18 @@
 // }
 
 //method-2
-#include<stdio.h>
-int main(){
-    int n,a;
-    scanf("%d",&n);
-    for (int i=0;i<=n;i++){
+// #include<stdio.h>
+// int main(){
+//     int n,a;
+//     scanf("%d",&n);
+//     for (int i=0;i<=n;i++){
        
-        for (int j=0;j<=i;j++){
-          if((i+j)%2==0) a=1;
-        else a=0;
-            printf("%d",a);
+//         for (int j=0;j<=i;j++){
+//           if((i+j)%2==0) a=1;
+//         else a=0;
+//             printf("%d",a);
        
-        }
-        printf("\n");
-    }
-}
+//         }
+//         printf("\n");
+//     }
+// }
