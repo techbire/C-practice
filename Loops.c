@@ -450,23 +450,26 @@
 //     return 0;
 // }
 
-#include <stdio.h>
 
-int main() {
-    int B, N;
-    scanf("%d", &B);
-    scanf("%d", &N);
-    int a;
-    for (int i = 0; i < N; ++i) {
-        scanf("%d", &a);
-        B = B - ((a % 2) + (a / 2));
-    }
+//snake problem
+
+// #include <stdio.h>
+
+// int main() {
+//     int B, N;
+//     scanf("%d", &B);
+//     scanf("%d", &N);
+//     int a;
+//     for (int i = 0; i < N; ++i) {
+//         scanf("%d", &a);
+//         B = B - ((a % 2) + (a / 2));
+//     }
     
-    if (B > 0) {
-        printf("YES\n");
-    } else {
-        printf("NO\n");
-    }
-    return 0;
-}
+//     if (B > 0) {
+//         printf("YES\n");
+//     } else {
+//         printf("NO\n");
+//     }
+//     return 0;
+// }
 
