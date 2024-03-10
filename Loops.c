@@ -176,6 +176,41 @@
 // }
 
 
+//reversing the number but ignoring zero 
+// #include <stdio.h>
+
+// int main() {
+//     int n;
+    
+//     // Input the five-digit product ID
+//     printf("Enter a five-digit product ID: ");
+//     scanf("%d", &n);
+    
+//     int reversed = 0;
+    
+//     // Process the digits in reverse order while skipping zeroes
+//     while (n > 0) {
+//         int digit = n % 10;
+        
+//         if (digit != 0) {
+//             reversed = reversed * 10 + digit;
+//         }
+        
+//         n = n / 10;
+        
+//         // Break out of the loop if leading zeros are encountered
+//         if (n == 0 && digit == 0) {
+//             break;
+//         }
+//     }
+    
+//     // Display the product ID in reverse order skipping zeroes
+//     printf("Output: %d\n", reversed);
+    
+//     return 0;
+// }
+
+
 
 //sum of the till given number
 // #include<stdio.h>
