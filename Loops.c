@@ -473,3 +473,40 @@
 //     return 0;
 // }
 
+
+
+//greatest prime divisor 
+// #include <stdio.h>
+
+// // Function to check if a number is prime
+// int isPrime(int num) {
+//     if (num < 2) {
+//         return 0; // Not a prime number
+//     }
+
+//     for (int i = 2; i * i <= num; ++i) {
+//         if (num % i == 0) {
+//             return 0; // Not a prime number
+//         }
+//     }
+
+//     return 1; // Prime number
+// }
+
+// int main() {
+//     long long int n;
+//     scanf("%lld", &n);
+
+//     long long int greatestPrimeDivisor = 1;
+
+//     // Find and display the greatest prime divisor
+//     for (long long int i = 2; i <= n; ++i) {
+//         if (n % i == 0 && isPrime(i)) {
+//             greatestPrimeDivisor = i;
+//         }
+//     }
+
+//     printf("%lld", greatestPrimeDivisor);
+
+//     return 0;
+// }
