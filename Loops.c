@@ -545,3 +545,62 @@
 
 //     return 0;
 // }
+
+//checking ascending and descending number
+// #include <stdio.h>
+
+// int main() {
+//     int n, number, prevNumber;
+
+//     // Read the number of elements in the sequence
+//     printf("Enter the number of elements: ");
+//     scanf("%d", &n);
+
+//     // Check for a sequence with only one element
+//     if (n <= 1) {
+//         printf("Invalid sequence. At least two elements are required.\n");
+//         return 0;
+//     }
+
+//     // Initialize the previous number
+//     printf("Enter element 1: ");
+//     scanf("%d", &prevNumber);
+
+//     int isAsc = 1; // Assume ascending order
+//     int isDesc = 1; // Assume descending order
+
+//     // Read and check the rest of the sequence
+//     for (int i = 2; i <= n; i++) {
+//         printf("Enter element %d: ", i);
+//         scanf("%d", &number);
+
+//         // Check for ascending order
+//         if (!(prevNumber <= number)) {
+//             isAsc = 0; // Not in ascending order
+//         }
+
+//         // Check for descending order
+//         if (!(prevNumber >= number)) {
+//             isDesc = 0; // Not in descending order
+//         }
+
+//         // Update the previous number
+//         prevNumber = number;
+//     }
+
+//     // Check for invalid sequence
+//     if (!isAsc && !isDesc) {
+//         printf("Invalid sequence. Neither ascending nor descending.\n");
+//     } else {
+//         // Print the result
+//         if (isAsc) {
+//             printf("The sequence is in ascending order.\n");
+//         }
+
+//         if (isDesc) {
+//             printf("The sequence is in descending order.\n");
+//         }
+//     }
+
+//     return 0;
+// }
