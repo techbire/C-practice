@@ -20,6 +20,7 @@
 
 
 
+
 // METHOD-2 Function Declaration and Definition with Return:
 // #include <stdio.h>
 
@@ -37,6 +38,8 @@
 // }
 
 
+
+
 // METHOD-3 Function Declaration and Definition without Parameters:
 // #include <stdio.h>
 
@@ -52,6 +55,8 @@
 //     s = a + b;
 //     printf("%d", s);
 // }
+
+
 
 
 
@@ -75,8 +80,12 @@
 //     printf("%d", product);
 // }
 
+
+
+
+
 //printing nCr
-#include <stdio.h>
+// #include <stdio.h>
 
 // Function to calculate the factorial of a number
 // unsigned long long factorial(int n) {
@@ -86,6 +95,9 @@
 //         return n * factorial(n - 1);
 //     }
 // }
+
+
+
 
 // // Function to calculate nCr
 // unsigned long long nCr(int n, int r) {
@@ -109,4 +121,58 @@
 //     printf("%dC%d = %llu\n", n, r, nCr(n, r));
 
 //     return 0;
+// }
+
+
+// swapping a number
+// #include <stdio.h>
+// void swap(int x,int y);
+// int main() {
+//     int x,y;
+//     scanf("%d %d",&x,&y);
+//     printf("Value before swap x=%d\t y=%d\n",x,y);
+//     swap(x,y);
+//     printf("Value after swap x=%d\t y=%d\n",x,y);
+// }
+// void swap(int x,int y){
+//     int temp;
+//     temp=x;
+//     x=y;
+//     y=temp;
+//     printf("Value of X / Y is %d / %d\n",x,y);
+// }
+
+
+
+//neon number
+// #include <stdio.h>
+
+// void square(int x);
+
+// int main() {
+//     int x, sum = 0, y;
+//     printf("Enter a number: ");
+//     scanf("%d", &x);
+    
+//     while(x > 0) {
+//         y = x % 10;
+//         sum += y;
+//         x = x / 10;
+//     }
+    
+//     printf("Sum of digits: %d\n", sum);
+//     square(sum);
+    
+//     return 0;
+// }
+
+// void square(int x) {
+//     int sq = x * x;
+//     printf("Squared Value of sum: %d\n", sq);
+    
+//     if (x == sq) {
+//         printf("%d is a Neon number.\n", x);
+//     } else {
+//         printf("%d is not a Neon number.\n", x);
+//     }
 // }
