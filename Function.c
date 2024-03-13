@@ -144,35 +144,28 @@
 
 
 
-//neon number
 // #include <stdio.h>
-
-// void square(int x);
-
+// void ansh(int x);
 // int main() {
-//     int x, sum = 0, y;
-//     printf("Enter a number: ");
-//     scanf("%d", &x);
-    
-//     while(x > 0) {
-//         y = x % 10;
-//         sum += y;
-//         x = x / 10;
+//     int x,sum=0,y;
+//     printf("enter a number");
+//     scanf("%d",&x);
+//     while(x>0){
+//     y=x%10;
+//     sum+=y;
+//     x=x/10;
 //     }
-    
-//     printf("Sum of digits: %d\n", sum);
-//     square(sum);
-    
+//        ansh(sum); // Call to the function ansh
 //     return 0;
 // }
+// void ansh(int x){
+//     int sq;
+//     sq=x*x;
 
-// void square(int x) {
-//     int sq = x * x;
-//     printf("Squared Value of sum: %d\n", sq);
-    
-//     if (x == sq) {
-//         printf("%d is a Neon number.\n", x);
-//     } else {
-//         printf("%d is not a Neon number.\n", x);
-//     }
+// if(x==sq){printf("this is neon number");}
+// else{printf("this is not neon number");}
 // }
+
+
+
+
