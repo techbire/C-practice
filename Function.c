@@ -143,7 +143,7 @@
 // }
 
 
-
+//checking neon number (sum of its digit=sq of number)
 // #include <stdio.h>
 // void ansh(int x);
 // int main() {
@@ -167,5 +167,18 @@
 // }
 
 
-
+//cubing the number
+// #include<stdio.h>
+// void cube(int *n);
+// int main(){
+//     int a;
+ 
+//     printf("enter a number: ");
+//        scanf("%d",&a);
+//     cube(&a);
+//     printf("the cube of number is: %d\n",a);
+// }
+// void cube(int *n){
+//     *n=(*n) * (*n) * (*n);
+// }
 
