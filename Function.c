@@ -183,16 +183,16 @@
 // }
 
 
+//printing nPr
+// #include <stdio.h>
 
-#include <stdio.h>
-
-// Function to calculate factorial
-int factorial(int n) {
-    if (n == 0)
-        return 1;
-    else
-        return n * factorial(n - 1);
-}
+// // Function to calculate factorial
+// int factorial(int n) {
+//     if (n == 0)
+//         return 1;
+//     else
+//         return n * factorial(n - 1);
+// }
 
 // Function to calculate nPr
 // int nPr(int n, int r) {
