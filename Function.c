@@ -182,3 +182,39 @@
 //     *n=(*n) * (*n) * (*n);
 // }
 
+
+
+#include <stdio.h>
+
+// Function to calculate factorial
+int factorial(int n) {
+    if (n == 0)
+        return 1;
+    else
+        return n * factorial(n - 1);
+}
+
+// Function to calculate nPr
+// int nPr(int n, int r) {
+//     return factorial(n) / factorial(n - r);
+// }
+
+// int main() {
+//     int n, r;
+    
+//     // Input values of n and r
+//     printf("Enter the value of n: ");
+//     scanf("%d", &n);
+//     printf("Enter the value of r: ");
+//     scanf("%d", &r);
+    
+//     // Check if n is greater than or equal to r
+//     if (n >= r) {
+//         // Calculate and print nPr
+//         printf("%dP%d = %d\n", n, r, nPr(n, r));
+//     } else {
+//         printf("Error: n should be greater than or equal to r.\n");
+//     }
+    
+//     return 0;
+// }
