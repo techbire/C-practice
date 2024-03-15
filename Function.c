@@ -218,3 +218,37 @@
     
 //     return 0;
 // }
+
+
+
+
+//pascal triangle without explicit pascal triangle
+// #include <stdio.h>
+
+// // Function to calculate factorial
+// unsigned long long factorial(int n) {
+//     unsigned long long fact = 1;
+//     for (int i = 1; i <= n; ++i) {
+//         fact *= i;
+//     }
+//     return fact;
+// }
+
+// int main() {
+//     int rows;
+
+//     // Input number of rows for Pascal's triangle
+//     printf("Enter the number of rows for Pascal's triangle: ");
+//     scanf("%d", &rows);
+
+//     // Printing Pascal's triangle
+//     for (int i = 0; i < rows; i++) {
+//         for (int j = 0; j <= i; j++) {
+//             printf("%llu ", factorial(i) / (factorial(j) * factorial(i - j)));
+//         }
+//         printf("\n");
+//     }
+
+//     return 0;
+// }
+
