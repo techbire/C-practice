@@ -1,7 +1,22 @@
 //adding two number
 
+// METHOD-1 Function Declaration and Definition with Return:
+// #include <stdio.h>
 
-// METHOD-1 Function Declaration and Definition:
+// int add(int a, int b) {
+//     return a + b;
+// }
+
+// int main() {
+//     int a, b;
+//     scanf("%d %d", &a, &b);
+//     int s = add(a, b);
+//     printf("%d", s);
+// }
+
+
+
+// METHOD-2 Function Declaration and Definition:
 // #include <stdio.h>
 
 // void add(int, int);
@@ -17,27 +32,6 @@
 //     s = a + b;
 //     printf("%d", s);
 // }
-
-
-
-
-// METHOD-2 Function Declaration and Definition with Return:
-// #include <stdio.h>
-
-// int add(int, int);
-
-// int main() {
-//     int a, b;
-//     scanf("%d %d", &a, &b);
-//     int s = add(a, b);
-//     printf("%d", s);
-// }
-
-// int add(int a, int b) {
-//     return a + b;
-// }
-
-
 
 
 // METHOD-3 Function Declaration and Definition without Parameters:
