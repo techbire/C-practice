@@ -224,36 +224,72 @@
 //     return 0;
 // }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int factorial(int n) {
-    if (n == 0) {
-        return 1;
-    } else {
-        return n * factorial(n - 1);
-    }
-}
+// int factorial(int n) {
+//     if (n == 0) {
+//         return 1;
+//     } else {
+//         return n * factorial(n - 1);
+//     }
+// }
 
-int binomialCoefficient(int n, int k) {
-    return factorial(n) / (factorial(k) * factorial(n - k));
-}
+// int binomialCoefficient(int n, int k) {
+//     return factorial(n) / (factorial(k) * factorial(n - k));
+// }
 
-void printPascalsTriangle(int numRows) {
-    for (int i = 0; i < numRows; i++) {
-        for (int j = 0; j <= i; j++) {
-            printf("%d ", binomialCoefficient(i, j));
-        }
-        printf("\n");
-    }
-}
+// void printPascalsTriangle(int numRows) {
+//     for (int i = 0; i < numRows; i++) {
+//         for (int j = 0; j <= i; j++) {
+//             printf("%d ", binomialCoefficient(i, j));
+//         }
+//         printf("\n");
+//     }
+// }
 
-int main() {
-    int numRows;
+// int main() {
+//     int numRows;
 
-    printf("Enter the number of rows for Pascal's Triangle: ");
-    scanf("%d", &numRows);
+//     printf("Enter the number of rows for Pascal's Triangle: ");
+//     scanf("%d", &numRows);
 
-    printPascalsTriangle(numRows);
+//     printPascalsTriangle(numRows);
 
-    return 0;
-}
+//     return 0;
+// }
+
+
+//print the prime factors of a given number
+// #include <stdio.h>
+
+// void printPrimeFactors(int n) {
+//     // Print the number of 2s that divide n
+//     while (n % 2 == 0) {
+//         printf("%d ", 2);
+//         n = n / 2;
+//     }
+    
+//     // n must be odd at this point. So we can skip one element (i = i + 2)
+//     for (int i = 3; i * i <= n; i = i + 2) {
+//         // While i divides n, print i and divide n
+//         while (n % i == 0) {
+//             printf("%d ", i);
+//             n = n / i;
+//         }
+//     }
+    
+//     // If n is a prime number greater than 2
+//     if (n > 2)
+//         printf("%d ", n);
+// }
+
+// int main() {
+//     int n;
+//     printf("Enter a number: ");
+//     scanf("%d", &n);
+    
+//     printf("Prime factors of %d are: ", n);
+//     printPrimeFactors(n);
+    
+//     return 0;
+// }
