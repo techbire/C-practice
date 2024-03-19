@@ -293,3 +293,28 @@
     
 //     return 0;
 // }
+
+
+
+
+// to write a function to find the HCF of 2 given numbers without any comments
+// #include <stdio.h>
+
+// int findHCF(int num1, int num2) {
+//     while (num1 != num2) {
+//         if (num1 > num2)
+//             num1 -= num2;
+//         else
+//             num2 -= num1;
+//     }
+//     return num1;
+// }
+
+// int main() {
+//     int num1, num2;
+//     printf("Enter two numbers: ");
+//     scanf("%d %d", &num1, &num2);
+//     printf("HCF of %d and %d is %d\n", num1, num2, findHCF(num1, num2));
+//     return 0;
+// }
+
