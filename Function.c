@@ -2,7 +2,6 @@
 
 // METHOD-1 Function Declaration and Definition with Return:
 // #include <stdio.h>
-
 // int add(int a, int b) {
 //     return a + b;
 // }
@@ -18,7 +17,6 @@
 
 // METHOD-2 Function Declaration and Definition:
 // #include <stdio.h>
-
 // void add(int, int);
 
 // int main() {
@@ -36,7 +34,6 @@
 
 // METHOD-3 Function Declaration and Definition without Parameters:
 // #include <stdio.h>
-
 // void add();
 
 // int main() {
@@ -53,10 +50,8 @@
 
 
 
-
 //factorial
 // #include <stdio.h>
-
 // void fact(int);
 
 // int main() {
@@ -73,7 +68,6 @@
 //     }
 //     printf("%d", product);
 // }
-
 
 
 
@@ -95,6 +89,35 @@
 //     printf("%d",ncr);
 //     return 0;
 // }
+
+
+
+//printing ncr in right angled triangle 
+// #include<stdio.h>
+// int factorial(int x) {
+//     int fact = 1;
+//     for (int i = 2; i <= x; i++) {
+//         fact *= i;
+//     }
+//     return fact;
+// }
+
+// int main() {
+//     int num;
+//     printf("Enter the number of rows for Pascal's triangle: ");
+//     scanf("%d", &num);
+    
+//     for (int i = 0; i < num; i++) {
+//         for (int j = 0; j <= i; j++) {
+//             printf("%d ", factorial(i) / (factorial(j) * factorial(i - j)));
+//         }
+//         printf("\n");
+//     }
+    
+//     return 0;
+// }
+
+
 
 // swapping a number
 // #include <stdio.h>
