@@ -93,6 +93,8 @@
 
 
 //printing ncr in right angled triangle 
+//1st method 
+
 // #include<stdio.h>
 // int factorial(int x) {
 //     int fact = 1;
@@ -114,6 +116,25 @@
 //         printf("\n");
 //     }
     
+//     return 0;
+// }
+
+
+
+//2nd method without using factorial
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("enter n: ");
+//     scanf("%d",&n);
+//     for(int i=0;i<=n;i++){
+//         int first=1;
+//         for(int j=0;j<=i;j++){
+//             printf("%d ",first);
+//             first=first*(i-j)/(j+1);
+//         }
+//         printf("\n");
+//     }
 //     return 0;
 // }
 
