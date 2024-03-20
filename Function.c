@@ -13,7 +13,7 @@
 //     printf("%d", s);
 // }
 
-
+--------------------------------------------------------------------------------------------------------------
 
 // METHOD-2 Function Declaration and Definition:
 // #include <stdio.h>
@@ -31,7 +31,8 @@
 //     printf("%d", s);
 // }
 
-
+--------------------------------------------------------------------------------------------------------------
+    
 // METHOD-3 Function Declaration and Definition without Parameters:
 // #include <stdio.h>
 // void add();
@@ -48,7 +49,7 @@
 // }
 
 
-
+--------------------------------------------------------------------------------------------------------------
 
 //factorial
 // #include <stdio.h>
@@ -70,7 +71,7 @@
 // }
 
 
-
+--------------------------------------------------------------------------------------------------------------
 
 //printing nCr
 // #include<stdio.h>
@@ -90,7 +91,7 @@
 //     return 0;
 // }
 
-
+--------------------------------------------------------------------------------------------------------------
 
 //printing ncr in right angled triangle 
 //1st method 
@@ -119,7 +120,7 @@
 //     return 0;
 // }
 
-
+--------------------------------------------------------------------------------------------------------------
 
 //2nd method without using factorial
 // #include<stdio.h>
@@ -138,7 +139,7 @@
 //     return 0;
 // }
 
-
+--------------------------------------------------------------------------------------------------------------
 
 //printing ncr in pascal triangle 
 // #include<stdio.h>
@@ -168,7 +169,8 @@
 
 // }
 
-
+--------------------------------------------------------------------------------------------------------------
+    
 // swapping a number
 // #include <stdio.h>
 // void swap(int *x,int *y){
@@ -186,6 +188,8 @@
 //     return 0;
 // }
 
+--------------------------------------------------------------------------------------------------------------
+    
 //checking neon number (sum of its digit=sq of number)
 // #include <stdio.h>
 // void ansh(int x);
@@ -209,7 +213,9 @@
 // else{printf("this is not neon number");}
 // }
 
+--------------------------------------------------------------------------------------------------------------
 
+    
 //cubing the number
 // #include<stdio.h>
 // void cube(int *n);
@@ -225,7 +231,8 @@
 //     *n=(*n) * (*n) * (*n);
 // }
 
-
+--------------------------------------------------------------------------------------------------------------
+    
 //printing nPr
 // #include <stdio.h>
 
@@ -263,72 +270,7 @@
 // }
 
 
-
-
-//pascal triangle without explicit pascal triangle
-// #include <stdio.h>
-
-// // Function to calculate factorial
-// unsigned long long factorial(int n) {
-//     unsigned long long fact = 1;
-//     for (int i = 1; i <= n; ++i) {
-//         fact *= i;
-//     }
-//     return fact;
-// }
-
-// int main() {
-//     int rows;
-
-//     // Input number of rows for Pascal's triangle
-//     printf("Enter the number of rows for Pascal's triangle: ");
-//     scanf("%d", &rows);
-
-//     // Printing Pascal's triangle
-//     for (int i = 0; i < rows; i++) {
-//         for (int j = 0; j <= i; j++) {
-//             printf("%llu ", factorial(i) / (factorial(j) * factorial(i - j)));
-//         }
-//         printf("\n");
-//     }
-
-//     return 0;
-// }
-
-// #include <stdio.h>
-
-// int factorial(int n) {
-//     if (n == 0) {
-//         return 1;
-//     } else {
-//         return n * factorial(n - 1);
-//     }
-// }
-
-// int binomialCoefficient(int n, int k) {
-//     return factorial(n) / (factorial(k) * factorial(n - k));
-// }
-
-// void printPascalsTriangle(int numRows) {
-//     for (int i = 0; i < numRows; i++) {
-//         for (int j = 0; j <= i; j++) {
-//             printf("%d ", binomialCoefficient(i, j));
-//         }
-//         printf("\n");
-//     }
-// }
-
-// int main() {
-//     int numRows;
-
-//     printf("Enter the number of rows for Pascal's Triangle: ");
-//     scanf("%d", &numRows);
-
-//     printPascalsTriangle(numRows);
-
-//     return 0;
-// }
-
+--------------------------------------------------------------------------------------------------------------
 
 //print the prime factors of a given number
 // #include <stdio.h>
@@ -365,27 +307,42 @@
 //     return 0;
 // }
 
+--------------------------------------------------------------------------------------------------------------
 
-
-
-// to write a function to find the HCF of 2 given numbers without any comments
+//print hcf
 // #include <stdio.h>
 
-// int findHCF(int num1, int num2) {
-//     while (num1 != num2) {
-//         if (num1 > num2)
-//             num1 -= num2;
-//         else
-//             num2 -= num1;
+// int min(int a, int b) {
+//     if (a < b) {
+//         return b;
+//     } else {
+//         return a;
 //     }
-//     return num1;
+// }
+
+// int hcf(int a, int b) {
+//     int hcf; // Declare hcf outside the loop for proper access
+
+//     for (int i = min(a, b); i >= 1; i--) {
+//         if (a % i == 0 && b % i == 0) {
+//             hcf = i;
+//             break;
+//         }
+//     }
+
+//     return hcf;
 // }
 
 // int main() {
-//     int num1, num2;
-//     printf("Enter two numbers: ");
-//     scanf("%d %d", &num1, &num2);
-//     printf("HCF of %d and %d is %d\n", num1, num2, findHCF(num1, num2));
+//     int a, b;
+//     printf("Enter the value of a: ");
+//     scanf("%d", &a);
+//     printf("Enter the value of b: ");
+//     scanf("%d", &b);
+
+//     int highestCommonFactor = hcf(a, b);
+
+//     printf("%d HCF is %d\n",highestCommonFactor);
+
 //     return 0;
 // }
-
