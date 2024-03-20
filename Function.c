@@ -119,6 +119,35 @@
 
 
 
+//printing ncr in pascal triangle 
+// #include<stdio.h>
+// int factorial(int x){
+//     int fact=1;
+//     for(int i=2;i<=x;i++){
+//         fact=fact*i;}
+//         return fact;}
+        
+        
+//         int main(){
+//             int num;
+//             printf("enter the num");
+//             scanf("%d",&num);
+        
+//             for(int i=0;i<num;i++){
+//             for (int k = 0; k < num - i - 1; k++) {
+//             printf("  ");
+//         }
+//             for(int j=0;j<=i;j++){
+//                 int ncr=factorial(i)/(factorial(j)*factorial(i-j));
+//             printf("%4d ",ncr);
+//             }printf("\n");
+//             } 
+    
+//             return 0;
+
+// }
+
+
 // swapping a number
 // #include <stdio.h>
 // void swap(int x,int y);
