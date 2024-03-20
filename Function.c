@@ -171,22 +171,20 @@
 
 // swapping a number
 // #include <stdio.h>
-// void swap(int x,int y);
-// int main() {
-//     int x,y;
-//     scanf("%d %d",&x,&y);
-//     printf("Value before swap x=%d\t y=%d\n",x,y);
-//     swap(x,y);
-//     printf("Value after swap x=%d\t y=%d\n",x,y);
+// void swap(int *x,int *y){
+// int temp;
+// temp=*x;
+// *x=*y;
+// *y=temp;
+// return;}
+// int main(){
+//     int a=9;
+//     int b=2;
+//     swap(&a,&b);
+//     printf("%d\n",a);
+//     printf("%d",b);
+//     return 0;
 // }
-// void swap(int x,int y){
-//     int temp;
-//     temp=x;
-//     x=y;
-//     y=temp;
-//     printf("Value of X / Y is %d / %d\n",x,y);
-// }
-
 
 //checking neon number (sum of its digit=sq of number)
 // #include <stdio.h>
