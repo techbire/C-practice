@@ -346,3 +346,28 @@
 
 //     return 0;
 // }
+
+//--------------------------------------------------------------------------------------------------------------
+//checking armstrong_number(using library)
+// #include <stdio.h>
+
+// void checkArmstrong(int n) {
+//     int original = n, sum = 0;
+//     while (n > 0) {
+//         int digit = n % 10;
+//         sum += digit * digit * digit;
+//         n /= 10;
+//     }
+//     if (sum == original)
+//         printf("%d is an Armstrong number.\n", original);
+//     else
+//         printf("%d is not an Armstrong number.\n", original);
+// }
+
+// int main() {
+//     int number;
+//     printf("Enter an integer: ");
+//     scanf("%d", &number);
+//     checkArmstrong(number);
+//     return 0;
+// }
