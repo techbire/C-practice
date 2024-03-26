@@ -71,3 +71,28 @@
 
 //     return 0;
 // }
+
+
+//Print the sum of ‘1’ to ‘n’ (Return Type)
+//#include <stdio.h>
+
+int sumNumbers(int n) {
+    if (n == 1)
+        return 1;
+    
+    return n + sumNumbers(n - 1);
+}
+
+int main() {
+    int n;
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    int sum = sumNumbers(n);
+
+    printf("Sum of numbers from 1 to %d: %d\n", n, sum);
+
+    return 0;
+}
+
