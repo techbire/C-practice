@@ -62,13 +62,10 @@
 
 // int main() {
 //     int n;
-
 //     printf("Enter a number: ");
 //     scanf("%d", &n);
-
 //     printf("Numbers from 1 to %d:\n", n);
 //     printNumbers(n);
-
 //     return 0;
 // }
 
@@ -78,21 +75,17 @@
 
 int sumNumbers(int n) {
     if (n == 1)
-        return 1;
-    
+        return 1; 
     return n + sumNumbers(n - 1);
 }
 
+
 int main() {
     int n;
-
     printf("Enter a number: ");
     scanf("%d", &n);
-
     int sum = sumNumbers(n);
-
     printf("Sum of numbers from 1 to %d: %d\n", n, sum);
-
     return 0;
 }
 
