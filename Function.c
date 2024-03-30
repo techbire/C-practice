@@ -348,7 +348,7 @@
 // }
 
 //--------------------------------------------------------------------------------------------------------------
-//checking armstrong_number(using library)
+//checking armstrong_number(LESS TIME COMPLEXITY)
 // #include <stdio.h>
 
 // void checkArmstrong(int n) {
@@ -373,7 +373,7 @@
 // }
 
 //--------------------------------------------------------------------------------------------------------------
-//checking armstrong_number(without library)
+//checking armstrong_number(MORE TIME COMPLEXITY)
 
 // #include <stdio.h>
 
@@ -412,5 +412,6 @@
 //     return 0;
 // }
 
-
+// The first code snippet does not explicitly calculate the number of digits. It directly cubes each digit and adds them together.
+// The second code snippet includes a separate function countDigits to determine the number of digits before calculating the Armstrong property.
 
