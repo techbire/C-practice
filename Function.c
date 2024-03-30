@@ -414,29 +414,3 @@
 
 
 
-----
-//#include <stdio.h>
-
-int main() {
-    char c;
-    
-    scanf("%c", &c);
-
-    int x = (int)c;
-    int a = 0;
-
-    for (int i = 2; i < x - 1; i++) {
-        if (x % i == 0) {
-            a = 1;
-            break;
-        }
-    }
-
-    if (a == 1) {
-        printf("yes");
-    } else {
-        printf("no");
-    }
-
-    return 0;
-//}
