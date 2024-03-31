@@ -404,6 +404,14 @@
 //         printf("%d is not an Armstrong number.\n", original);
 // }
 
+if sum!=original
+    while (n > 0) {
+//         int digit = n % 10;
+//         sum += digit * digit * digit;
+//         n /= 10;
+//     }
+
+
 // int main() {
 //     int number;
 //     printf("Enter an integer: ");
