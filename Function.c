@@ -346,3 +346,80 @@
 
 //     return 0;
 // }
+
+//--------------------------------------------------------------------------------------------------------------
+//checking armstrong_number(LESS TIME COMPLEXITY)
+// #include <stdio.h>
+
+// void checkArmstrong(int n) {
+//     int original = n, sum = 0;
+//     while (n > 0) {
+//         int digit = n % 10;
+//         sum += digit * digit * digit;
+//         n /= 10;
+//     }
+//     if (sum == original)
+//         printf("%d is an Armstrong number.\n", original);
+//     else
+//         printf("%d is not an Armstrong number.\n", original);
+// }
+
+// int main() {
+//     int number;
+//     printf("Enter an integer: ");
+//     scanf("%d", &number);
+//     checkArmstrong(number);
+//     return 0;
+// }
+
+//--------------------------------------------------------------------------------------------------------------
+//checking armstrong_number(MORE TIME COMPLEXITY)
+
+// #include <stdio.h>
+
+// int countDigits(int n) {
+//     int count = 0;
+//     while (n != 0) {
+//         count++;
+//         n /= 10;
+//     }
+//     return count;
+// }
+
+// void checkArmstrong(int n) {
+//     int original = n, sum = 0;
+//     int digits = countDigits(n);
+//     while (n > 0) {
+//         int digit = n % 10;
+//         int power = 1;
+//         for (int i = 0; i < digits; i++) {
+//             power *= digit;
+//         }
+//         sum += power;
+//         n /= 10;
+//     }
+//     if (sum == original)
+//         printf("%d is an Armstrong number.\n", original);
+//     else
+//         printf("%d is not an Armstrong number.\n", original);
+// }
+
+if sum!=original
+    while (n > 0) {
+//         int digit = n % 10;
+//         sum += digit * digit * digit;
+//         n /= 10;
+//     }
+
+
+// int main() {
+//     int number;
+//     printf("Enter an integer: ");
+//     scanf("%d", &number);
+//     checkArmstrong(number);
+//     return 0;
+// }
+
+// The first code snippet does not explicitly calculate the number of digits. It directly cubes each digit and adds them together.
+// The second code snippet includes a separate function countDigits to determine the number of digits before calculating the Armstrong property.
+
