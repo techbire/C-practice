@@ -107,3 +107,53 @@
 //     getchar();
 //     return 0;
 // }
+
+
+//Golomb sequence
+// #include <stdio.h>
+// int findGolomb(int n) {
+//     if (n == 1) 
+//         return 1;
+//     return 1 + findGolomb(n - findGolomb(findGolomb(n - 1)));
+// }
+
+// void printGolomb(int n) {
+//     for (int i = 1; i <= n; i++) 
+//         printf("%d ", findGolomb(i));
+// }
+
+// int main() {
+//     int n;
+//     scanf("%d", &n);
+//     printGolomb(n);
+//     return 0;
+// }
+
+
+// a function named NthRoot which takes N and M as input parameters, recursively calculates the Nth root of M, and returns the integer. If the root is not an integer then return -1.
+// #include <stdio.h>
+// #include <math.h>
+
+// double NthRoot(int n, int m, double x, double tol) {
+//     double x_new = ((n - 1.0) * x + m / pow(x, n - 1)) / n;
+//     if (fabs(x - x_new) < tol)
+//         return x_new;
+//     return NthRoot(n, m, x_new, tol);
+// }
+
+// int main() {
+//     int n, m;
+//     scanf("%d %d", &n, &m);
+//     double initialGuess = m;
+//     double tolerance = 1e-6;
+//     double root = NthRoot(n, m, initialGuess, tolerance);
+//     if (fabs(round(root) - root) < tolerance) {
+//         printf("%d\n", (int)round(root));
+//     } else {
+//         printf("-1");
+//     }
+
+//     return 0;
+// }
+
+
