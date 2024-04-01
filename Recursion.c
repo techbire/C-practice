@@ -73,19 +73,37 @@
 //Print the sum of ‘1’ to ‘n’ (Return Type)
 //#include <stdio.h>
 
-int sumNumbers(int n) {
-    if (n == 1)
-        return 1; 
-    return n + sumNumbers(n - 1);
-}
+// int sumNumbers(int n) {
+//     if (n == 1)
+//         return 1; 
+//     return n + sumNumbers(n - 1);
+// }
 
 
-int main() {
-    int n;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-    int sum = sumNumbers(n);
-    printf("Sum of numbers from 1 to %d: %d\n", n, sum);
-    return 0;
-}
+// int main() {
+//     int n;
+//     printf("Enter a number: ");
+//     scanf("%d", &n);
+//     int sum = sumNumbers(n);
+//     printf("Sum of numbers from 1 to %d: %d\n", n, sum);
+//     return 0;
+// }
 
+
+
+//print nth Fibonacci Number
+// #include <stdio.h>
+
+// int fib(int n) {
+//     if (n <= 1)
+//         return n;
+//     return fib(n - 1) + fib(n - 2);
+// }
+
+// int main() {
+//     int n;
+//     scanf("%d", &n);
+//     printf("%d", fib(n));
+//     getchar();
+//     return 0;
+// }
