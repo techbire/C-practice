@@ -14,7 +14,7 @@
 // }}
 
 
-//Prob 1 : Given array of marks, print marks less than 35
+//Given array of marks, print marks less than 35
 // #include<stdio.h>
 // int main(){
 //     int marks[10]={34,37,65,27,23,69,97,56,45,8};
@@ -24,3 +24,32 @@
 //     }
 // return 0;
 // }
+
+
+//sum of given array
+//#include <stdio.h>
+// int main() {
+//    int arr[5]={3,4,5,2,1}; 
+//    int sum = 0;
+//    for(int i=0; i<5; i++){ 
+//        sum += arr[i];
+//    }
+//    printf("%d",sum);
+//    return 0;
+// }
+
+//multiply of given array
+// #include <stdio.h>
+
+// int main() {
+//    int arr[5]={3,4,5,2,7}; 
+//    int mul = 1;
+//    for(int i=0; i<5; i++){ 
+//        mul *= arr[i];
+//    }
+//    printf("%d",mul);
+//    return 0;
+// }
+
+
+//
