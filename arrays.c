@@ -86,3 +86,43 @@
 // }
 
 
+//inserting an element into the array
+// Online C compiler to run C program online
+// #include <stdio.h>
+
+// int main() {
+//     int a[100], n, value, pos;
+
+//     printf("Enter the size of the array: ");
+//     scanf("%d", &n);
+    
+//     printf("Enter the elements of the array: ");
+//     for(int i = 0; i < n; i++) {
+//         scanf("%d", &a[i]);
+//     }
+
+//     printf("Enter the value to insert: ");
+//     scanf("%d", &value);
+    
+//     printf("Enter the position to insert the value: ");
+//     scanf("%d", &pos);
+
+//     // Shift elements to the right to make space for the new value
+//     for(int i = n - 1; i >= pos - 1; i--) {
+//         a[i + 1] = a[i];
+//     }
+
+//     // Insert the value at the specified position
+//     a[pos - 1] = value;
+
+
+//     n++;
+
+//     printf("Array after insertion: ");
+//     for(int i = 0; i < n; i++) {
+//         printf("%d ", a[i]);
+//     }
+//     printf("\n");
+
+//     return 0;
+// }
