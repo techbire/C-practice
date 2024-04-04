@@ -171,3 +171,40 @@
 // }
 
 
+//reversing the array
+// #include <stdio.h>
+
+// int main() {
+// int arr[7]={2,3,4,5,6,7,8};
+// int brr[7];
+// for(int i=0;i<7;i++){
+//     brr[i]=arr[6-i];
+// }
+// for(int i=0;i<7;i++){
+// printf("%d ",brr[i]);}
+//     return 0;
+// }
+
+
+//removing duplicates
+// #include <stdio.h>
+// #include <stdbool.h>
+
+// int main() {
+//     int arr[7] = {1,1,2,2, 3, 4, 5};
+
+//     for (int i = 0; i < 7; i++) {
+//         bool flag = false;
+//         for (int j = 0; j < i; j++) {
+//             if (arr[i] == arr[j]) {
+//                 flag = true;
+//                 break; 
+//             }
+//         }
+//         if (!flag) {
+//             printf("%d ", arr[i]);
+//         }
+//     }
+//     return 0;
+// }
+
