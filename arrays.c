@@ -126,3 +126,25 @@
 
 //     return 0;
 // }
+
+//sum/pairs finder
+// #include<stdio.h>
+
+// int main() {
+//     int sum;
+//     int x[] = {1, 2, 3, 4, 5, 6, 7};
+
+//     printf("Give me a number: ");
+//     scanf("%d", &sum);
+
+//     printf("Pairs with sum %d are: ", sum);
+//     for(int i = 0; i < 7; i++) {
+//         for(int j = 0; j < 7; j++) {
+//             if(x[i] + x[j] == sum) {
+//                 printf("(%d,%d) ", x[i], x[j]);
+//             }
+//         }
+//     }
+
+//     return 0;
+// }
