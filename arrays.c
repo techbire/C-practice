@@ -208,3 +208,61 @@
 //     return 0;
 // }
 
+// sum of left diagonal
+
+// #include <stdio.h>
+
+// int main() {
+//     int sum = 0, m, n, i;
+//     printf("Enter the number of rows: ");
+//     scanf("%d", &m);
+//     printf("Enter the number of columns: ");
+//     scanf("%d", &n);
+
+//     int a[m][n];
+
+//     printf("Enter the elements of the array:\n");
+//     for (i = 0; i < m; i++) {
+//         for (int j = 0; j < n; j++) {
+//             scanf("%d", &a[i][j]);
+//         }
+//     }
+
+//     for (i = 0; i < m; i++) {
+//         sum += a[i][i];
+//     }
+
+//     printf("Sum of the left diagonal: %d\n", sum);
+
+//     return 0;
+// }
+
+
+// sum of right diagonal
+
+// #include <stdio.h>
+
+// int main() {
+//     int sum = 0, m, n, i;
+//     printf("Enter the number of rows: ");
+//     scanf("%d", &m);
+//     printf("Enter the number of columns: ");
+//     scanf("%d", &n);
+
+//     int a[m][n];
+
+//     printf("Enter the elements of the array:\n");
+//     for (i = 0; i < m; i++) {
+//         for (int j = 0; j < n; j++) {
+//             scanf("%d", &a[i][n-1-i]);
+//         }
+//     }
+
+//     for (i = 0; i < m; i++) {
+//         sum += a[i][n-1-i];
+//     }
+
+//     printf("Sum of the right diagonal: %d\n", sum);
+
+//     return 0;
+// }
