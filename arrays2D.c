@@ -30,6 +30,29 @@
 // }
 
 
+//sum of given squared matrix
+
+// #include <stdio.h>
+
+// int main() {
+//   int size,sum=0;
+//   scanf("%d",&size);
+//   int arr[size][size];
+//   for(int i=0;i<size;i++){
+//       for(int j=0;j<size;j++){
+//           scanf("%d",&arr[i][j]);
+//       }
+//   }
+//   for(int i=0;i<size;i++){
+//       for(int j=0;j<size;j++){
+//           sum+=arr[i][j];
+//       }
+//   }
+//   printf("%d",sum);
+
+//     return 0;
+// }
+
 
 
 //sum of given matrix
@@ -42,16 +65,13 @@
 //     printf("Enter the number of columns: ");
 //     scanf("%d", &n);
 
-   
 //     int a[m][n];
-
 //     printf("Enter the elements of the array:\n");
 //     for (i = 0; i < m; i++) {
 //         for (j = 0; j < n; j++) {
 //             scanf("%d", &a[i][j]);
 //         }
 //     }
-
 //     printf("The sum of array elements are:\n");
 //     for (i = 0; i < m; i++) {
 //         for (j = 0; j < n; j++) {
@@ -63,38 +83,4 @@
 // }
 
 
-//sum of given two matrix
 
-
-// #include <stdio.h>
-
-// int main() {
-//     int a[2][2], b[2][2], c[2][2];
-
-
-//     printf("Enter elements for matrix a:\n");
-//     for (int i = 0; i < 2; i++) {
-//         for (int j = 0; j < 2; j++) {
-//             scanf("%d", &a[i][j]);
-//         }
-//     }
-
-
-//     printf("Enter elements for matrix b:\n");
-//     for (int i = 0; i < 2; i++) {
-//         for (int j = 0; j < 2; j++) {
-//             scanf("%d", &b[i][j]);
-//         }
-//     }
-
-//     printf("Sum of matrices a and b:\n");
-//     for (int i = 0; i < 2; i++) {
-//         for (int j = 0; j < 2; j++) {
-//             c[i][j] = a[i][j] + b[i][j];
-//             printf("%d ", c[i][j]); 
-//         }
-//         printf("\n"); 
-//     }
-
-//     return 0;
-// }
