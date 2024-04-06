@@ -13,7 +13,7 @@
 // printf ("%d", fact);
 // return 0;}
 
-
+//------------------------------------------------------
 //Print ‘n’ to ‘1’
 // #include <stdio.h>
 
@@ -40,7 +40,7 @@
 
 //     return 0;
 // }
-
+//------------------------------------------------------
 
 // Print ‘1’ to ‘n’ (Extra Parameter)
 // #include <stdio.h>
@@ -69,7 +69,7 @@
 //     return 0;
 // }
 
-
+//------------------------------------------------------
 //Print the sum of ‘1’ to ‘n’ (Return Type)
 //#include <stdio.h>
 
@@ -89,7 +89,7 @@
 //     return 0;
 // }
 
-
+//------------------------------------------------------
 
 //print nth Fibonacci Number
 // #include <stdio.h>
@@ -108,7 +108,7 @@
 //     return 0;
 // }
 
-
+//------------------------------------------------------
 //Golomb sequence
 // #include <stdio.h>
 // int findGolomb(int n) {
@@ -129,7 +129,7 @@
 //     return 0;
 // }
 
-
+//------------------------------------------------------
 // a function named NthRoot which takes N and M as input parameters, recursively calculates the Nth root of M, and returns the integer. If the root is not an integer then return -1.
 // #include <stdio.h>
 // #include <math.h>
