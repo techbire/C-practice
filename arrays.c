@@ -13,7 +13,7 @@
 //      printf("%d ",arr[i]); 
 // }}
 
-
+//------------------------------------------------------
 //Given array of marks, print marks less than 35
 // #include<stdio.h>
 // int main(){
@@ -25,7 +25,7 @@
 // return 0;
 // }
 
-
+//------------------------------------------------------
 //sum of given array
 //#include <stdio.h>
 // int main() {
@@ -37,7 +37,7 @@
 //    printf("%d",sum);
 //    return 0;
 // }
-
+//------------------------------------------------------
 //multiply of given array
 // #include <stdio.h>
 
@@ -51,7 +51,7 @@
 //    return 0;
 // }
 
-
+//------------------------------------------------------
 //finding maximum element
 // #include <stdio.h>
 
@@ -67,7 +67,7 @@
 //    return 0;
 // }
 
-
+//------------------------------------------------------
 //swapping number with arrays
 
 // #include <stdio.h>
@@ -85,7 +85,7 @@
 //     return 0;
 // }
 
-
+//------------------------------------------------------
 //inserting an element into the array
 
 // #include <stdio.h>
@@ -111,7 +111,7 @@
 //     for(int i = n - 1; i >= pos - 1; i--) {
 //         a[i + 1] = a[i];
 //     }
-
+//------------------------------------------------------
 //     // Insert the value at the specified position
 //     a[pos - 1] = value;
 
@@ -126,7 +126,7 @@
 
 //     return 0;
 // }
-
+//------------------------------------------------------
 //sum/pairs finder
 // #include<stdio.h>
 
@@ -169,7 +169,7 @@
 // }
 // printf("%d",smax);
 // }
-
+//------------------------------------------------------
 
 //reversing the array
 // #include <stdio.h>
@@ -185,7 +185,7 @@
 //     return 0;
 // }
 
-
+//------------------------------------------------------
 //removing duplicates
 // #include <stdio.h>
 // #include <stdbool.h>
@@ -207,7 +207,33 @@
 //     }
 //     return 0;
 // }
+//------------------------------------------------------
+//print only unique element
+// #include<stdio.h>
 
+// int main() {
+//     int size;
+//     scanf("%d", &size);
+//     int arr[size];
+
+//     for(int i = 0; i < size; i++) {
+//         scanf("%d", &arr[i]);
+//     }
+
+//     printf("Unique elements: ");
+//     for(int i = 0; i < size; i++) {
+//         for(int x = i+1; x < size; x++) {
+//             if (arr[i] != arr[x]) {
+//                 printf("%d ", arr[i]);
+//                 break;
+//             }
+            
+//         }
+//     }
+
+//     return 0;
+// }
+//------------------------------------------------------
 // sum of left diagonal
 
 // #include <stdio.h>
@@ -237,7 +263,7 @@
 //     return 0;
 // }
 
-
+//------------------------------------------------------
 // sum of right diagonal
 
 // #include <stdio.h>
