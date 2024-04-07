@@ -84,6 +84,42 @@
 // }
 
 //------------------------------------------------------
+//transpose of matrix
+// #include<stdio.h>
+
+// int main() {
+//     int row, col;
+//     scanf("%d %d", &row, &col);
+//     int matrix[row][col];
+
+//     // Taking input for the matrix
+//     for(int i = 0; i < row; i++) {
+//         for(int j = 0; j < col; j++) {
+//             scanf("%d", &matrix[i][j]);
+//         }
+//     }
+
+//     // Transposing the matrix
+//     int transpose[col][row];
+//     for (int i = 0; i < col; i++) {
+//         for (int j = 0; j < row; j++) {
+//             transpose[i][j] = matrix[j][i];
+//         }
+//     }
+
+//     printf("The transposed matrix is:\n");
+//     for (int i = 0; i < col; i++) {
+//         for (int j = 0; j < row; j++) {
+//             printf("%d ", transpose[i][j]);
+//         }
+//         printf("\n");
+//     } 
+    
+//     return 0;
+// }
+
+
+
 
 
 
