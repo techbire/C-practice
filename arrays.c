@@ -86,6 +86,40 @@
 // }
 
 //------------------------------------------------------
+//Reversing the data
+// #include <stdio.h>
+
+// int main() {
+//     int numbers[100]; // Assuming a maximum of 100 numbers
+//     int count;
+
+//     printf("Enter the number of elements: ");
+//     scanf("%d", &count);
+
+//     printf("Enter %d numbers: ", count);
+//     for (int i = 0; i < count; i++) {
+//         scanf("%d", &numbers[i]);
+//     }
+
+//     // Reversing the numbers
+//     int temp;
+//     for (int i = 0; i < count / 2; i++) {
+//         temp = numbers[i];
+//         numbers[i] = numbers[count - i - 1];
+//         numbers[count - i - 1] = temp;
+//     }
+//     printf("Reversed numbers: ");
+//     for (int i = 0; i < count; i++) {
+//         printf("%d ", numbers[i]);
+//     }
+//     printf("\n");
+
+//     return 0;
+// }
+
+
+
+//------------------------------------------------------
 //inserting an element into the array
 
 // #include <stdio.h>
