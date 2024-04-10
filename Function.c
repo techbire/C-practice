@@ -144,6 +144,27 @@
 //     return 0;
 // }
 
+//--------------------------------------------------------------------------------------------------------------
+//reversing by pointer
+// #include<stdio.h>
+
+// int main() {
+//     int n, last, reverse = 0;
+//     int *ptr = &reverse;
+
+//     printf("Enter the number: ");
+//     scanf("%d", &n);
+
+//     while(n > 0) {
+//         last = n % 10;
+//         reverse = reverse * 10 + last;
+//         n /= 10;
+//     }
+
+//     printf("Reversed number: %d\n", reverse);
+
+//     return 0;
+// }
 
 
 //printing ncr in right angled triangle 
