@@ -92,6 +92,59 @@
 // }
 
 //--------------------------------------------------------------------------------------------------------------
+//pointer
+//printing and updating
+// #include <stdio.h>
+
+// int main()
+// {
+// int *b; //pointer
+// int a=5;
+// b=&a;
+// printf("%d %d %u %u %u %u",a,*b,&a,b,&*b,*&b);
+//     *b=100;
+//   printf("Updated *b: %d\n", *b);
+//     }
+
+//--------------------------------------------------------------------------------------------------------------
+
+
+
+//find area of circle by pointers
+// #include <stdio.h>
+
+// int main()
+// {
+// double radius,area=0.0;
+// double *pradius = &radius,*parea =&area;
+// printf("enter the radius");
+// scanf("%lf",pradius);
+// *parea=3.14*(*pradius)*(*pradius);
+// printf("\n the area of the radius of %.2lf=%.2lf",*pradius,*parea);
+
+// }
+
+//--------------------------------------------------------------------------------------------------------------
+//factorial by pointer
+// #include<stdio.h>
+
+// int main() {
+//     int n, fact = 1;
+//     int *ptr = &fact; // Pointer to store the result
+
+//     printf("Enter the number: ");
+//     scanf("%d", &n);
+
+//     for (int i = 1; i <= n; i++) {
+//         *ptr *= i; // Update the value stored at ptr with the factorial
+//     }
+
+//     printf("Factorial of %d is: %d\n", n, *ptr);
+
+//     return 0;
+// }
+
+
 
 //printing ncr in right angled triangle 
 //1st method 
