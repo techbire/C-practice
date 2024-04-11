@@ -326,3 +326,90 @@
 
 //     return 0;
 // }
+
+
+
+//------------------------------------------------------
+//insertion at second place
+// #include <stdio.h>
+
+// int main() {
+//     int n;
+//     scanf("%d", &n);
+
+//     int cards[10];
+//     for (int i = 0; i < n; i++) {
+//         scanf("%d", &cards[i]);
+//     }
+
+//     int insertValue;
+//     scanf("%d", &insertValue);
+
+//     // Shift elements to the right to make space for the new card
+//     for (int i = n - 1; i >= 1; i--) {
+//         cards[i + 1] = cards[i];
+//     }
+
+//     // Insert the new card at the second position
+//     cards[1] = insertValue;
+
+//     // Print the updated collection of cards
+//     for (int i = 0; i < n + 1; i++) {
+//         printf("%d ", cards[i]);
+//     }
+
+//     return 0;
+// }
+
+
+
+//------------------------------------------------------
+//deletion from first place
+// #include <stdio.h>
+
+// int main() {
+//     int n;
+//     scanf("%d", &n);
+
+//     int arr[10];
+//     for (int i = 0; i < n; i++) {
+//         scanf("%d", &arr[i]);
+//     }
+
+//     // Shift elements to the left to remove the first element
+//     for (int i = 0; i < n - 1; i++) {
+//         arr[i] = arr[i + 1];
+//     }
+
+//     // Print the modified array
+//     for (int i = 0; i < n - 1; i++) {
+//         printf("%d ", arr[i]);
+//     }
+
+//     return 0;
+// }
+
+
+//------------------------------------------------------
+//deletion from last place
+// #include <stdio.h>
+
+// int main() {
+//     int n;
+//     scanf("%d", &n);
+
+//     int positions[10];
+//     for (int i = 0; i < n; i++) {
+//         scanf("%d", &positions[i]);
+//     }
+
+//     // Eliminate the last by reducing the size of the array
+//     n--; // ye kar skte ho
+
+//     // Print the modified positions of players
+//     for (int i = 0; i < n; i++) {    // ya phir n k jagah pe n-1 pe kar skte ho place ek delete hi toh karna hai!
+//         printf("%d ", positions[i]);
+//     }
+
+//     return 0;
+// }
