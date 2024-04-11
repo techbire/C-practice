@@ -167,6 +167,14 @@
 // }
 
 
+//--------------------------------------------------------------------------------------------------------------
+//reversing by pointer
+// #include<stdio.h>
+
+// int main() {
+
+
+
 //printing ncr in right angled triangle 
 //1st method 
 
