@@ -448,33 +448,46 @@
 
 
 //binary searching
-//#include <stdio.h>
+// #include <stdio.h>
 
 // int main() {
-//   int arr[] = {2, 5, 7, 10, 14, 18}; // Replace with your sorted array
-//   int n = sizeof(arr) / sizeof(arr[0]);
-//   int key, first, last, middle;
+//     int n;
+//     int arr[100]; // Allocate a reasonable maximum size for the array
 
-//   printf("Enter the element to search: ");
-//   scanf("%d", &key);
+//     printf("Enter the size of array (less than 100): ");
+//     scanf("%d", &n);
 
-//   first = 0;
-//   last = n - 1;
-
-//   // Loop until search range collapses
-//   while (first <= last) {
-//     middle = (first + last) / 2;
-
-//     if (arr[middle] == key) {
-//       printf("Element found at index %d\n", middle);
-//       return 0;
-//     } else if (arr[middle] < key) {
-//       first = middle + 1; // Move to the right half
-//     } else {
-//       last = middle - 1; // Move to the left half
+//     // Check if the entered size is valid
+//     if (n <= 0 || n > 100) {
+//         printf("Invalid array size. Please enter a value between 1 and 100.\n");
+//         return 1; // Exit the program with an error code
 //     }
-//   }
 
-//   printf("Element not found\n");
-//   return 1;
+//     printf("Enter the elements of the array:\n");
+//     for (int i = 0; i < n; i++) {
+//         scanf("%d", &arr[i]);
+//     }
+
+//     int key;
+//     scanf("%d", &key);
+
+//     int first = 0;
+//     int last = n - 1;
+//     int middle = (first + last) / 2;
+
+//     while (first <= last) {
+//         if (arr[middle] == key) {
+//             printf("Element found at index %d\n", middle);
+//             return 0;
+//         } else if (arr[middle] < key) {
+//             first = middle + 1;
+//         } else {
+//             last = middle - 1;
+//         }
+//     }
+
+//     printf("Element not found\n");
+//     return 1;
 // }
+
+
