@@ -413,3 +413,68 @@
 
 //     return 0;
 // }
+
+
+//------------------------------------------------------
+//searching 
+//linear searching
+// #include <stdio.h>
+
+// int main() {
+//     int arr[100], size, i, key;
+
+//     printf("Enter the size of the array: ");
+//     scanf("%d", &size);
+
+//     printf("Enter the elements of the array:\n");
+//     for (i = 0; i < size; i++)
+//         scanf("%d", &arr[i]);
+
+//     printf("Enter the element to search: ");
+//     scanf("%d", &key);
+
+//     // Linear search algorithm
+//     for (i = 0; i < size; i++) {
+//         if (arr[i] == key) {
+//             printf("Element %d found at index %d\n", key, i);
+//             return 0;
+//         }
+//     }
+
+//     // If the key is not present in the array
+//     printf("Element %d not found in the array\n", key);
+//     return 0;
+// }
+
+
+//binary searching
+//#include <stdio.h>
+
+// int main() {
+//   int arr[] = {2, 5, 7, 10, 14, 18}; // Replace with your sorted array
+//   int n = sizeof(arr) / sizeof(arr[0]);
+//   int key, first, last, middle;
+
+//   printf("Enter the element to search: ");
+//   scanf("%d", &key);
+
+//   first = 0;
+//   last = n - 1;
+
+//   // Loop until search range collapses
+//   while (first <= last) {
+//     middle = (first + last) / 2;
+
+//     if (arr[middle] == key) {
+//       printf("Element found at index %d\n", middle);
+//       return 0;
+//     } else if (arr[middle] < key) {
+//       first = middle + 1; // Move to the right half
+//     } else {
+//       last = middle - 1; // Move to the left half
+//     }
+//   }
+
+//   printf("Element not found\n");
+//   return 1;
+// }
