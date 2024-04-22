@@ -452,18 +452,12 @@
 
 // int main() {
 //     int n;
-//     int arr[100]; // Allocate a reasonable maximum size for the array
+//     int arr[100];
 
-//     printf("Enter the size of array (less than 100): ");
+//     printf("Enter the size of array: ");
 //     scanf("%d", &n);
-
-//     // Check if the entered size is valid
-//     if (n <= 0 || n > 100) {
-//         printf("Invalid array size. Please enter a value between 1 and 100.\n");
-//         return 1; // Exit the program with an error code
-//     }
-
-//     printf("Enter the elements of the array:\n");
+      
+//     printf("Enter the elements of the sorted array:\n");
 //     for (int i = 0; i < n; i++) {
 //         scanf("%d", &arr[i]);
 //     }
@@ -471,23 +465,23 @@
 //     int key;
 //     scanf("%d", &key);
 
+//     //main algo
 //     int first = 0;
 //     int last = n - 1;
-//     int middle = (first + last) / 2;
 
 //     while (first <= last) {
-//         if (arr[middle] == key) {
-//             printf("Element found at index %d\n", middle);
+//         int mid = (first + last) / 2;
+//         if (arr[mid] == key) {
+//             printf("Element found at index %d\n", mid);
 //             return 0;
-//         } else if (arr[middle] < key) {
-//             first = middle + 1;
+//         } else if (arr[mid] < key) {
+//             first = mid + 1;
 //         } else {
-//             last = middle - 1;
+//             last = mid - 1;
 //         }
 //     }
 
 //     printf("Element not found\n");
 //     return 1;
 // }
-
 
