@@ -1,28 +1,23 @@
 // reversing the string
-
-// #include <stdio.h>
+// #include<stdio.h>
 // #include<string.h>
-
-
-// int main()
-// {
-// char str[100];
-// puts("enter the sentence");
-// scanf("%[^\n]s",str);
-
-// int size,k;
-// while(str[k]!='\0'){
-//     size++;
-//     k++;
-// }
-
-// for(int i=0,j=size-1;i<=j;i++,j--){
-//     char temp=str[i];
-//     str[i]=str[j];
-//     str[j]=temp;
-// }
-// puts("reverse sentence is: ");
-// puts(str);
-
-
+// int main(){
+//     char a[100];
+//     gets(a); //scanf
+    
+//     int size,k;
+//     while(a[k]!='\0'){
+//         size++;
+//         k++;
+//     }
+    
+//     char temp;
+//     for (int i = 0; i < size / 2; i++) {
+//         temp = a[i];
+//         a[i] = a[size - i - 1];
+//         a[size - i - 1] = temp;
+//     }
+    
+//     puts(a);  //printf
+    
 // }
