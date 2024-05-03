@@ -389,6 +389,45 @@
 //     return 0;
 // }
 
+//------------------------------------------------------
+// calculate avg number to smallest number
+// #include <stdio.h>
+
+// int main() {
+//     int SIZE;
+//     printf("Enter the size of the array: ");
+//     scanf("%d", &SIZE);
+
+//     int arr[SIZE];
+//     int i;
+//     float sum = 0;
+//     int smallest_index = 0;
+
+//     // Input elements into the array
+//     printf("Enter %d numbers:\n", SIZE);
+//     for (i = 0; i < SIZE; i++) {
+//         scanf("%d", &arr[i]);
+//         sum += arr[i];
+//         if (arr[i] < arr[smallest_index]) {
+//             smallest_index = i;
+//         }
+//     }
+
+//     // Calculate average
+//     float avg = sum / SIZE;
+
+//     // Add average to the smallest number
+//     arr[smallest_index] += avg;
+
+//     // Output the updated array
+//     printf("Array after adding average to the smallest number:\n");
+//     for (i = 0; i < SIZE; i++) {
+//         printf("%d ", arr[i]);
+//     }
+//     printf("\n");
+
+//     return 0;
+// }
 
 //------------------------------------------------------
 //deletion from last place
