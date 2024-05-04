@@ -363,7 +363,7 @@
 
 
 
-//------------------------------------------------------
+// ------------------------------------------------------
 //deletion from first place
 // #include <stdio.h>
 
@@ -388,6 +388,37 @@
 
 //     return 0;
 // }
+
+
+// ------------------------------------------------------
+// calculateAbsoluteDeviation
+      
+// #include <stdio.h>
+// int main() {
+//     int n;
+//     float avg;
+//     float sum = 0;
+//     scanf("%d", &n);
+//     float arr[n];
+//     for (int i = 0; i < n; i++) {
+//         scanf("%f", &arr[i]);
+//         sum += arr[i];
+//     }
+
+//     avg = sum / n;
+//     for (int i = 0; i < n; i++) {
+//         arr[i] -= avg; // Calculate deviation from average
+//     }
+
+//     for (int i = 0; i < n; i++) {
+//      if(arr[i]<0){arr[i]=-1*arr[i];}
+//         printf("%.2f ", arr[i]);
+//     }
+//     printf("\n");
+
+//     return 0;
+// }
+
 
 //------------------------------------------------------
 // calculate avg number to smallest number
