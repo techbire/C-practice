@@ -555,3 +555,37 @@
 //     return 1;
 // }
 
+//------------------------------------------------------
+//merging
+
+// #include <stdio.h>
+
+// int main() {
+//     int n, m;
+//     scanf("%d", &n);
+//     int arr1[n];
+//     for (int i = 0; i < n; i++) {
+//         scanf("%d", &arr1[i]);
+//     }
+//     scanf("%d", &m);
+//     int arr2[m];
+//     for (int i = 0; i < m; i++) {
+//         scanf("%d", &arr2[i]);
+//     }
+//     int o = m + n;
+//     int arr3[o];
+//     for (int i = 0; i < o; i++) {
+//         arr3[i] = 0; // Initialize to 0
+//     }
+//     for (int i = 0; i < m; i++) {
+//         arr3[i] = arr1[i] + arr2[i];
+//         printf("%d ", arr3[i]);
+//     }
+//     for (int i = m; i < n; i++) {
+//         arr3[i] = arr1[i];
+//         printf("%d ", arr3[i]);
+//     }
+//     printf("\n");
+//     return 0;
+// }
+
