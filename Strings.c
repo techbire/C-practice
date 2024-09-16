@@ -21,3 +21,19 @@
 //     puts(a);  //printf
     
 // }
+
+//---------------------------------------------------------------------------------
+//comparison
+// #include<stdio.h>
+// #include<string.h>
+// int main(){
+// string s1="bcme";
+// string s2="abcrome";
+// cout<<s1.compare(s2)<<endl;
+// cout<<s1.compare(2,2,s2,5,2);
+// // s1.substr(2, 2) is "me" (characters from index 2 are "m" and "e").
+// // s2.substr(5, 2) is "me" (characters from index 5 are also "m" and "e").
+// // Since both substrings are "me", they are equal.
+
+//    return 0;
+// }
